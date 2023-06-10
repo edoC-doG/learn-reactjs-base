@@ -1,0 +1,11 @@
+.album {
+    &__thumbnaiUrl{
+        & > img {
+            width: 190px;
+            border-radius: .6rem;
+        }
+    }
+    &__name{
+        font-weight: bold;
+    }
+}
