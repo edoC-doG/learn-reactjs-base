@@ -80,6 +80,9 @@ export default function ButtonAppBar() {
           <NavLink className={classes.link} to="/albums">
             <Button color="inherit">Album</Button>
           </NavLink>
+          <NavLink className={classes.link} to="/products">
+            <Button color="inherit">Product</Button>
+          </NavLink>
           {!isLoggedIn && (
             <Button color='inherit' onClick={handleClickOpen}>
               Login
